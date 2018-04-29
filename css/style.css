@@ -4,11 +4,11 @@ html, body {
 	box-sizing: border-box;
 }
 
-/*.container {*/
-	/*margin:  auto;*/
-	/*padding: 0 2rem;*/
-	/*background-color: black;*/
-/*}*/
+.container {
+	margin:  auto;
+	padding: 0 2rem;
+	background-color: black;
+}
 
 .clearfix {
 	clear: both;
@@ -56,46 +56,58 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
-.container header {
-	background-color: #ffffff;
-	color: #00ff00;
-}
 
-/*.container > h1 {*/
-	/*background-color: rgba(00 99 99 .15);*/
-	/*color: darkgoldenrod;*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.container header {*/
+	/*background-color: #ffffff;*/
+	/*color: #00ff00;*/
+/*}*/
+
+/*!*.container > h1 {*!*/
+	/*!*background-color: rgba(00 99 99 .15);*!*/
+	/*!*color: darkgoldenrod;*!*/
+/*!*}*!*/
+
+
+/*header {*/
+	/*display:flex;*/
+	/*flex-direction: row;*/
+/*}*/
+
+/*header > div {*/
+	/*color: #00ff00;*/
+	/*font-size: 1.1Em;*/
+	/*align-content: center;*/
+/*}*/
+/*em {*/
+	/*font-size: 1.05em;*/
+/*padding-top: 5vh;*/
+/*padding-left: 6vw;*/
 /*}*/
 
 
-header {
-	display:flex;
-	flex-direction: row;
-}
 
-header > div {
-	color: #00ff00;
-	font-size: 1.1Em;
-	align-content: center;
-}
-em {
-	font-size: 1.05em;
-padding-top: 5vh;
-padding-left: 6vw;
-}
+/*!*header em {*!*/
+	/*!*font-size: .9;*!*/
+	/*!*!*display: inline-block;*!*!*/
+/*!*}*!*/
 
-/*section > .container {*/
-	/*C:\Users\Gusli\OneDrive\Desktop\bootcamp\css-challenge\images\welcome.gif*/
+/*.instructions-content {*/
 	/*display: flex;*/
-
-
-/*header em {*/
-	/*font-size: .9;*/
-	/*!*display: inline-block;*!*/
+/*box-sizing: border-box;*/
+	/*flex-basis: content-box;*/
+	/*float-displace: block-within-page;*/
 /*}*/
-
-.instructions-content {
-	display: flex;
-box-sizing: border-box;
-	flex-basis: content-box;
-	float-displace: block-within-page;
-}
