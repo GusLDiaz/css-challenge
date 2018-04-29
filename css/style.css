@@ -4,11 +4,11 @@ html, body {
 	box-sizing: border-box;
 }
 
-.container {
-	margin:  auto;
-	padding: 0 2rem;
-	background-color: black;
-}
+/*.container {*/
+	/*margin:  auto;*/
+	/*padding: 0 2rem;*/
+	/*background-color: black;*/
+/*}*/
 
 .clearfix {
 	clear: both;
@@ -56,7 +56,31 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
-header.container {
+.container header {
 	background-color: #ffffff;
-	text-color: #00ff00;
+	color: #00ff00;
 }
+
+/*.container > h1 {*/
+	/*background-color: rgba(00 99 99 .15);*/
+	/*color: darkgoldenrod;*/
+/*}*/
+
+
+header {
+	display:flex;
+	flex-direction: row;
+}
+
+em {
+		font-size: 0.9em;
+}
+
+/*section > .container {*/
+/*display: flex;*/
+
+
+/*header em {*/
+	/*font-size: .9;*/
+	/*!*display: inline-block;*!*/
+/*}*/
