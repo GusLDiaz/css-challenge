@@ -72,15 +72,30 @@ header {
 	flex-direction: row;
 }
 
+header > div {
+	color: #00ff00;
+	font-size: 1.1Em;
+	align-content: center;
+}
 em {
-		font-size: 0.9em;
+	font-size: 1.05em;
+padding-top: 5vh;
+padding-left: 6vw;
 }
 
 /*section > .container {*/
-/*display: flex;*/
+	/*C:\Users\Gusli\OneDrive\Desktop\bootcamp\css-challenge\images\welcome.gif*/
+	/*display: flex;*/
 
 
 /*header em {*/
 	/*font-size: .9;*/
 	/*!*display: inline-block;*!*/
 /*}*/
+
+.instructions-content {
+	display: flex;
+box-sizing: border-box;
+	flex-basis: content-box;
+	float-displace: block-within-page;
+}
